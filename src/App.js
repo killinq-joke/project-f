@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <nav><div>logo</div><div>NOS PRODUITS</div></nav>
+     <nav><button>logo</button><div><button>NOS PRODUITS</button><a href="tel:+33651296836">APPELER</a></div></nav>
     </div>
   );
 }
