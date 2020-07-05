@@ -1,10 +1,17 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-     <nav><button>logo</button><div><button>NOS PRODUITS</button><a href="tel:+33651296836">APPELER</a></div></nav>
+      <nav className="navbar">
+        <a className="logo">Frites City</a>
+        <div>
+          <a>NOS PRODUITS</a>
+          <a href="tel:+33651296836">COMMANDER</a>
+          <a>Nous Trouver</a>
+        </div>
+      </nav>
     </div>
   );
 }
